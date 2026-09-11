@@ -147,16 +147,13 @@ function Header({ onMenu, onReserve }: { onMenu: () => void; onReserve: () => vo
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
         solid
-          ? "border-b border-border bg-obsidian/80 backdrop-blur-xl"
+          ? "border-b border-border bg-background/85 backdrop-blur-xl"
           : "border-b border-transparent"
       }`}
     >
       <div className="mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-6 px-6 py-4 lg:px-10">
         <a href="#top" className="min-w-0">
-          <span className="block truncate font-display text-lg tracking-[0.3em] text-cream sm:text-xl">
-            P VISIION
-          </span>
-          <span className="block text-[10px] tracking-[0.45em] text-greige/80">INTERIORS</span>
+          <Wordmark />
         </a>
         <div className="flex shrink-0 items-center gap-8">
           <nav className="hidden items-center gap-8 lg:flex">
@@ -179,7 +176,7 @@ function Header({ onMenu, onReserve }: { onMenu: () => void; onReserve: () => vo
           <button
             onClick={onMenu}
             aria-label="Open menu"
-            className="shrink-0 text-cream lg:hidden"
+            className="shrink-0 text-obsidian lg:hidden"
           >
             <Menu className="h-6 w-6" />
           </button>
@@ -205,7 +202,7 @@ function MobileDrawer({
     >
       <div
         onClick={onClose}
-        className={`absolute inset-0 bg-obsidian/70 backdrop-blur-sm transition-opacity duration-300 ${
+        className={`absolute inset-0 bg-obsidian/40 backdrop-blur-sm transition-opacity duration-300 ${
           open ? "opacity-100" : "opacity-0"
         }`}
       />
@@ -215,7 +212,7 @@ function MobileDrawer({
         }`}
       >
         <div className="flex items-center justify-between">
-          <span className="font-display text-sm tracking-[0.35em] text-cream">MENU</span>
+          <Wordmark compact />
           <button onClick={onClose} aria-label="Close menu" className="text-greige">
             <X className="h-5 w-5" />
           </button>
@@ -228,7 +225,7 @@ function MobileDrawer({
                 onClose();
                 setTimeout(() => scrollTo(n.id), 320);
               }}
-              className="text-left font-display text-2xl text-cream"
+              className="text-left font-display text-2xl text-obsidian"
             >
               {n.label}
             </button>
@@ -315,7 +312,7 @@ function Hero({ onUnlock }: { onUnlock: () => void }) {
               height={1104}
               className="h-[380px] w-full object-cover sm:h-[520px]"
             />
-            <div className="absolute inset-x-6 bottom-6 border border-border/70 bg-obsidian/70 p-5 backdrop-blur-2xl">
+            <div className="absolute inset-x-6 bottom-6 border border-border bg-background/90 p-5 backdrop-blur-2xl">
               <p className="font-display text-lg text-cream">The Wakad Penthouse</p>
               <p className="mt-1 text-[10px] uppercase tracking-[0.25em] text-primary">
                 Turnkey · 3,200 sq.ft · Walnut & Cognac
@@ -340,7 +337,7 @@ function Marquee() {
     "Turnkey Projects",
   ];
   return (
-    <div className="border-y border-border bg-card/30">
+    <div className="border-y border-border bg-card">
       <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-10 gap-y-4 px-6 py-6 lg:px-10">
         {items.map((i) => (
           <span key={i} className="text-[10px] uppercase tracking-[0.3em] text-greige/70">
@@ -405,13 +402,13 @@ function Gallery() {
               loading="lazy"
               className={`w-full object-cover transition-transform duration-[900ms] group-hover:scale-[1.06] ${p.h}`}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/10 to-transparent opacity-80" />
+            <div className="absolute inset-0 bg-gradient-to-t from-obsidian/90 via-obsidian/25 to-transparent" />
             <figcaption className="absolute inset-x-0 bottom-0 p-6">
-              <span className="inline-block border border-primary/50 px-3 py-1 text-[9px] uppercase tracking-[0.25em] text-primary">
+              <span className="inline-block border border-primary bg-primary/20 px-3 py-1 text-[9px] uppercase tracking-[0.25em] text-primary backdrop-blur">
                 {p.cat}
               </span>
-              <p className="mt-3 font-display text-2xl text-cream">{p.title}</p>
-              <p className="mt-1 max-h-0 overflow-hidden text-xs text-greige opacity-0 transition-all duration-500 group-hover:max-h-10 group-hover:opacity-100">
+              <p className="mt-3 font-display text-2xl text-oncanvas">{p.title}</p>
+              <p className="mt-1 max-h-0 overflow-hidden text-xs text-oncanvas/80 opacity-0 transition-all duration-500 group-hover:max-h-10 group-hover:opacity-100">
                 Design consultancy, bespoke fabrication and site execution in-house.
               </p>
             </figcaption>
@@ -480,14 +477,14 @@ function Compare() {
         className="absolute inset-y-0 w-px bg-primary"
         style={{ left: `${pos}%` }}
       >
-        <span className="absolute left-1/2 top-1/2 flex h-11 w-11 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-primary bg-obsidian/80 backdrop-blur">
+        <span className="absolute left-1/2 top-1/2 flex h-11 w-11 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-primary bg-background shadow-lg">
           <ArrowRight className="h-4 w-4 text-primary" />
         </span>
       </div>
-      <span className="absolute left-4 top-4 border border-border bg-obsidian/70 px-3 py-1 text-[9px] uppercase tracking-[0.25em] text-greige backdrop-blur">
+      <span className="absolute left-4 top-4 border border-border bg-background/90 px-3 py-1 text-[9px] uppercase tracking-[0.25em] text-greige backdrop-blur">
         Before
       </span>
-      <span className="absolute right-4 top-4 border border-primary/50 bg-obsidian/70 px-3 py-1 text-[9px] uppercase tracking-[0.25em] text-primary backdrop-blur">
+      <span className="absolute right-4 top-4 border border-primary/60 bg-background/90 px-3 py-1 text-[9px] uppercase tracking-[0.25em] text-primary backdrop-blur">
         After
       </span>
     </div>
@@ -500,22 +497,22 @@ function Philosophy() {
   const pillars = [
     {
       icon: Compass,
-      t: "Design Consultancy",
-      d: "Space planning, Vastu alignment and material palettes drawn from how you actually live.",
+      t: "Customized Design & Build",
+      d: "Design consultancy, space planning and bespoke modular furniture drawn from how you actually live.",
     },
     {
       icon: Ruler,
-      t: "Customized Modular Furniture",
-      d: "Factory-finished joinery in walnut, cream laminate and matte obsidian — engineered to the millimetre.",
+      t: "Renovation",
+      d: "Existing homes reimagined — civil work, joinery, lighting and finishes upgraded without the chaos.",
     },
     {
       icon: ShieldCheck,
-      t: "Turnkey Projects",
-      d: "One accountable contract from demolition to handover, with a 180-day workmanship warranty.",
+      t: "Vastu",
+      d: "Vastu-aligned layouts and turnkey execution under one accountable contract, with a 180-day warranty.",
     },
   ];
   return (
-    <section id="philosophy" className="border-y border-border bg-card/30">
+    <section id="philosophy" className="border-y border-border bg-card">
       <div className="mx-auto max-w-7xl px-6 py-24 lg:px-10 lg:py-32">
         <SectionHead
           kicker="Design Philosophy"
@@ -617,7 +614,7 @@ function Proof() {
     },
   ];
   return (
-    <section id="reviews" className="border-y border-border bg-card/30">
+    <section id="reviews" className="border-y border-border bg-card">
       <div className="mx-auto max-w-7xl px-6 py-24 lg:px-10 lg:py-32">
         <div className="grid gap-px border border-border bg-border sm:grid-cols-2 lg:grid-cols-4">
           {[
@@ -635,7 +632,7 @@ function Proof() {
 
         <div className="mt-16 grid gap-5 lg:grid-cols-3">
           {reviews.map((r) => (
-            <figure key={r.n} className="border border-border bg-background/60 p-8 backdrop-blur">
+            <figure key={r.n} className="border border-border bg-background p-8 backdrop-blur">
               <div className="flex gap-1">
                 {Array.from({ length: 5 }).map((_, i) => (
                   <Star key={i} className="h-3.5 w-3.5 fill-primary text-primary" />
@@ -712,7 +709,7 @@ function LeadEngine({
           </p>
         </div>
 
-        <div className="mt-12 border border-border bg-card/50 p-7 backdrop-blur-xl sm:p-10">
+        <div className="mt-12 border border-border bg-card p-7 backdrop-blur-xl sm:p-10">
           {done ? (
             <div className="text-center">
               <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-full border border-primary/60 bg-primary/10">
@@ -922,11 +919,10 @@ function SectionHead({
 
 function Footer() {
   return (
-    <footer className="border-t border-border bg-obsidian">
+    <footer className="border-t border-border bg-card">
       <div className="mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-[1.1fr_1fr_1fr] lg:px-10">
         <div>
-          <p className="font-display text-2xl tracking-[0.3em] text-cream">P VISIION</p>
-          <p className="text-[10px] tracking-[0.45em] text-greige/80">INTERIORS</p>
+          <Wordmark />
           <p className="mt-7 max-w-sm text-sm leading-relaxed text-greige">
             Customized design &amp; build, renovation and Vastu — a cost-effective design solution
             that reflects quality, harmony and pride.
@@ -935,13 +931,13 @@ function Footer() {
             href={INSTAGRAM}
             target="_blank"
             rel="noreferrer"
-            className="mt-8 inline-flex items-center gap-3 border border-border px-5 py-3 text-[10px] uppercase tracking-[0.22em] text-cream transition-colors hover:border-primary/60 hover:text-primary"
+            className="mt-8 inline-flex items-center gap-3 border border-border bg-background px-5 py-3 text-[10px] uppercase tracking-[0.22em] text-cream transition-colors hover:border-primary/60 hover:text-primary"
           >
             <Instagram className="h-4 w-4" /> @pvisiioninteriors
           </a>
         </div>
 
-        <div className="border border-border bg-card/40 p-7 backdrop-blur">
+        <div className="border border-border bg-background p-7">
           <MapPin className="h-5 w-5 text-primary" />
           <p className="mt-5 font-display text-xl text-cream">Studio · Wakad, Pune</p>
           <p className="mt-3 text-sm leading-relaxed text-greige">
