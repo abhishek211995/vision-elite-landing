@@ -24,6 +24,7 @@ import bedroomImg from "@/assets/gallery-bedroom.jpg";
 import officeImg from "@/assets/gallery-office.jpg";
 import beforeImg from "@/assets/before.jpg";
 import afterImg from "@/assets/after.jpg";
+import logoAsset from "@/assets/p-visiion-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -66,28 +67,19 @@ function scrollTo(id: string) {
 
 function LogoMark({ className = "h-10 w-10" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 64 64" className={className} role="img" aria-label="P Visiion Interiors logo">
-      <path
-        d="M14 56V14c0-4.4 3.6-8 8-8h6c7.7 0 14 6.3 14 14s-6.3 14-14 14h-6"
-        fill="none"
-        stroke="#222B38"
-        strokeWidth="9"
-        strokeLinecap="round"
-      />
-      <path
-        d="M40 50c-1-14 4-27 17-38-3 17-7 29-17 38z"
-        fill="#EFA00B"
-      />
-      <path d="M33 47c1-9 5-17 12-24-4 11-6 19-12 24z" fill="#E85D04" />
-      <circle cx="36" cy="17" r="5.5" fill="#E85D04" />
-    </svg>
+    <img
+      src={logoAsset.url}
+      alt=""
+      aria-hidden="true"
+      className={`${className} shrink-0 object-contain`}
+    />
   );
 }
 
 function Wordmark({ compact = false }: { compact?: boolean }) {
   return (
-    <span className="flex items-center gap-3">
-      <LogoMark className={compact ? "h-8 w-8" : "h-10 w-10"} />
+    <span className="flex items-center gap-3" aria-label="P Visiion Interiors">
+      <LogoMark className={compact ? "h-9 w-9" : "h-11 w-11"} />
       <span className="min-w-0">
         <span
           className={`block truncate font-display tracking-[0.28em] text-obsidian ${
