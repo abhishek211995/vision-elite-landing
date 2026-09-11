@@ -236,7 +236,7 @@ function MobileDrawer({
             onClose();
             setTimeout(onReserve, 320);
           }}
-          className="mt-12 w-full bg-primary py-4 text-[11px] uppercase tracking-[0.25em] text-primary-foreground"
+          className="mt-12 w-full bg-primary py-4 text-[11px] uppercase tracking-[0.25em] text-accent-foreground"
         >
           Reserve a Consultation
         </button>
@@ -262,12 +262,12 @@ function Hero({ onUnlock }: { onUnlock: () => void }) {
       <div className="pointer-events-none absolute -left-32 bottom-0 h-[420px] w-[420px] rounded-full bg-teal/10 blur-[140px]" />
       <div className="relative mx-auto grid max-w-7xl items-center gap-16 px-6 lg:grid-cols-[1.05fr_1fr] lg:px-10">
         <div>
-          <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.4em] text-primary">
-            <span className="h-px w-10 bg-primary/60" /> Wakad · Pune · Since 2016
+          <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.4em] text-accent">
+            <span className="h-px w-10 bg-accent/60" /> Wakad · Pune · Since 2016
           </p>
           <h1 className="mt-8 font-display text-[2.7rem] leading-[1.05] text-cream sm:text-6xl lg:text-[4.5rem]">
             Engineering the Future of{" "}
-            <em className="not-italic text-primary">Ultra-Luxury Living</em>
+            <em className="not-italic text-accent">Ultra-Luxury Living</em>
           </h1>
           <p className="mt-8 max-w-xl text-base leading-relaxed text-greige">
             A team of design professionals crafting attractive yet functional environments — a
@@ -277,7 +277,7 @@ function Hero({ onUnlock }: { onUnlock: () => void }) {
           <div className="mt-11 flex flex-col gap-4 sm:flex-row">
             <button
               onClick={onUnlock}
-              className="group flex items-center justify-center gap-3 bg-primary px-8 py-4 text-[11px] uppercase tracking-[0.25em] text-primary-foreground transition-transform hover:-translate-y-0.5"
+              className="group flex items-center justify-center gap-3 bg-primary px-8 py-4 text-[11px] uppercase tracking-[0.25em] text-accent-foreground transition-transform hover:-translate-y-0.5"
             >
               Unlock Private Portfolio
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -314,7 +314,7 @@ function Hero({ onUnlock }: { onUnlock: () => void }) {
             />
             <div className="absolute inset-x-6 bottom-6 border border-border bg-background/90 p-5 backdrop-blur-2xl">
               <p className="font-display text-lg text-cream">The Wakad Penthouse</p>
-              <p className="mt-1 text-[10px] uppercase tracking-[0.25em] text-primary">
+              <p className="mt-1 text-[10px] uppercase tracking-[0.25em] text-accent">
                 Turnkey · 3,200 sq.ft · Walnut & Cognac
               </p>
             </div>
@@ -404,7 +404,7 @@ function Gallery() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-obsidian/90 via-obsidian/25 to-transparent" />
             <figcaption className="absolute inset-x-0 bottom-0 p-6">
-              <span className="inline-block border border-primary bg-primary/20 px-3 py-1 text-[9px] uppercase tracking-[0.25em] text-primary backdrop-blur">
+              <span className="inline-block border border-primary bg-primary/20 px-3 py-1 text-[9px] uppercase tracking-[0.25em] text-accent backdrop-blur">
                 {p.cat}
               </span>
               <p className="mt-3 font-display text-2xl text-oncanvas">{p.title}</p>
@@ -418,7 +418,7 @@ function Gallery() {
 
       <div className="mt-20 grid gap-10 lg:grid-cols-[1fr_1.3fr] lg:items-center">
         <div>
-          <p className="text-[10px] uppercase tracking-[0.35em] text-primary">Bare shell to bespoke</p>
+          <p className="text-[10px] uppercase tracking-[0.35em] text-accent">Bare shell to bespoke</p>
           <h3 className="mt-5 font-display text-3xl text-cream lg:text-4xl">
             Drag to witness the transformation
           </h3>
@@ -484,7 +484,7 @@ function Compare() {
       <span className="absolute left-4 top-4 border border-border bg-background/90 px-3 py-1 text-[9px] uppercase tracking-[0.25em] text-greige backdrop-blur">
         Before
       </span>
-      <span className="absolute right-4 top-4 border border-primary/60 bg-background/90 px-3 py-1 text-[9px] uppercase tracking-[0.25em] text-primary backdrop-blur">
+      <span className="absolute right-4 top-4 border border-primary/60 bg-background/90 px-3 py-1 text-[9px] uppercase tracking-[0.25em] text-accent backdrop-blur">
         After
       </span>
     </div>
@@ -533,7 +533,7 @@ function Philosophy() {
             “Our aim is to provide an appropriate, cost-effective design solution that reflects
             quality, harmony and pride.”
           </p>
-          <footer className="mt-5 text-[10px] uppercase tracking-[0.3em] text-primary">
+          <footer className="mt-5 text-[10px] uppercase tracking-[0.3em] text-accent">
             Sucheta Alve · Principal Designer
           </footer>
         </blockquote>
@@ -583,7 +583,7 @@ function Blueprint() {
               <h3 className="font-display text-2xl text-cream">{s.t}</h3>
               <p className="mt-3 max-w-2xl text-sm leading-relaxed text-greige">{s.d}</p>
             </div>
-            <span className="justify-self-start border border-primary/40 px-4 py-1.5 text-[9px] uppercase tracking-[0.25em] text-primary lg:justify-self-end">
+            <span className="justify-self-start border border-primary/40 px-4 py-1.5 text-[9px] uppercase tracking-[0.25em] text-accent lg:justify-self-end">
               {s.tag}
             </span>
           </li>
@@ -699,7 +699,7 @@ function LeadEngine({
       <div className="pointer-events-none absolute inset-x-0 top-0 h-72 bg-gradient-to-b from-cognac/10 to-transparent" />
       <div className="relative mx-auto max-w-4xl px-6 py-24 lg:py-32">
         <div className="text-center">
-          <p className="text-[10px] uppercase tracking-[0.4em] text-primary">Interactive</p>
+          <p className="text-[10px] uppercase tracking-[0.4em] text-accent">Interactive</p>
           <h2 className="mt-6 font-display text-4xl text-cream lg:text-5xl">
             Bespoke Space Cost &amp; Vision Architect
           </h2>
@@ -853,7 +853,7 @@ function LeadEngine({
           )}
         </div>
         {open && (
-          <p className="mt-6 flex items-center justify-center gap-2 text-center text-[10px] uppercase tracking-[0.25em] text-primary">
+          <p className="mt-6 flex items-center justify-center gap-2 text-center text-[10px] uppercase tracking-[0.25em] text-accent">
             <Sparkles className="h-3.5 w-3.5" /> Complete the four steps to unlock the portfolio
           </p>
         )}
@@ -908,8 +908,8 @@ function SectionHead({
 }) {
   return (
     <div className="max-w-3xl">
-      <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.4em] text-primary">
-        <span className="h-px w-8 bg-primary/60" /> {kicker}
+      <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.4em] text-accent">
+        <span className="h-px w-8 bg-accent/60" /> {kicker}
       </p>
       <h2 className="mt-6 font-display text-4xl leading-tight text-cream lg:text-5xl">{title}</h2>
       <p className="mt-5 text-sm leading-relaxed text-greige">{copy}</p>
