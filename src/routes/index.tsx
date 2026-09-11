@@ -68,15 +68,17 @@ function Landing() {
   const [drawer, setDrawer] = useState(false);
   const [leadOpen, setLeadOpen] = useState(false);
 
+  const openLead = () => {
+    setLeadOpen(true);
+    scrollTo("architect");
+  };
+
   return (
     <div className="min-h-screen bg-background font-sans text-foreground antialiased">
-      <Header
-        onMenu={() => setDrawer(true)}
-        onReserve={() => setLeadOpen(true)}
-      />
-      <MobileDrawer open={drawer} onClose={() => setDrawer(false)} onReserve={() => setLeadOpen(true)} />
+      <Header onMenu={() => setDrawer(true)} onReserve={openLead} />
+      <MobileDrawer open={drawer} onClose={() => setDrawer(false)} onReserve={openLead} />
       <main>
-        <Hero onUnlock={() => setLeadOpen(true)} />
+        <Hero onUnlock={openLead} />
         <Marquee />
         <Gallery />
         <Philosophy />
