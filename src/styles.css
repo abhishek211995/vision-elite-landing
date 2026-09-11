@@ -65,9 +65,11 @@
   --color-teal: var(--teal);
   --color-walnut: var(--walnut);
   --color-obsidian: var(--obsidian);
+  --color-oncanvas: var(--oncanvas);
   --font-display: var(--font-display);
   --font-sans: var(--font-sans);
 }
+
 
 :root {
   --radius: 0.25rem;
