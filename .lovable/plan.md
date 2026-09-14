@@ -1,11 +1,11 @@
-# Replace the P Visiion logo mark
+# Warm Boho Brand Palette
+
+## Goal
+Keep the site bright and predominantly white while shifting accent surfaces and controls toward warm rust, terracotta, clay, and soft earthy neutrals that complement the existing orange logo.
 
 ## Changes
-- Upload the supplied high-resolution logo as a project asset.
-- Replace the hand-drawn mark in the header, mobile menu, and footer while preserving the existing brand text.
-- Create a crisp, padded 64×64 favicon from the same supplied logo and update the browser icon reference.
-- Verify the page at desktop and mobile sizes and confirm the project remains error-free.
-
-## Technical details
-- Preserve the source image’s aspect ratio with `object-contain` sizing.
-- Keep the logo image accessible with descriptive alternative text and avoid duplicating it for screen readers beside the wordmark.
+- Preserve pure white as the main page background.
+- Replace golden-yellow accents with a sophisticated rust/terracotta primary color and restrained burnt-orange highlights.
+- Warm card, muted, border, and secondary tones from cool grey to soft stone and linen.
+- Retain deep slate for text and the brand logo so contrast and brand recognition remain strong.
+- Check the key mobile and desktop views for readability, alignment, and visual balance.
