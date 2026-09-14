@@ -33,13 +33,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Bespoke turnkey interiors by P Visiion Interiors, Wakad Pune. Customized design & build, renovation and Vastu-aligned luxury homes.",
+          "Bespoke turnkey interiors by P Visiion Interiors, Wakad Pune. Bright boho, French-inspired and Indian-fusion homes, renovation and Vastu.",
       },
       { property: "og:title", content: "P Visiion Interiors | Ultra-Luxury Interiors in Pune" },
       {
         property: "og:description",
         content:
-          "Design consultancy, customized modular furniture and turnkey execution for discerning homes across Pune & PCMC.",
+          "Earthy boho, French-inspired and Indian-fusion design with turnkey execution for discerning homes across Pune and PCMC.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -262,9 +262,8 @@ function Hero({ onUnlock }: { onUnlock: () => void }) {
             <em className="not-italic text-accent">Ultra-Luxury Living</em>
           </h1>
           <p className="mt-8 max-w-xl text-base leading-relaxed text-greige">
-            A team of design professionals crafting attractive yet functional environments — a
-            considered blend of traditional intent and modern trends, delivered turnkey with
-            perfect planning and a deeply personal touch.
+            Light-filled interiors where relaxed bohemian warmth meets French refinement and
+            Indian craft — layered in earthy tones, natural materials and a deeply personal touch.
           </p>
           <div className="mt-11 flex flex-col gap-4 sm:flex-row">
             <button
@@ -305,9 +304,9 @@ function Hero({ onUnlock }: { onUnlock: () => void }) {
               className="h-[380px] w-full object-cover sm:h-[520px]"
             />
             <div className="absolute inset-x-6 bottom-6 border border-border bg-background/90 p-5 backdrop-blur-2xl">
-              <p className="font-display text-lg text-cream">The Wakad Penthouse</p>
+              <p className="font-display text-lg text-cream">The Wakad Bungalow</p>
               <p className="mt-1 text-[10px] uppercase tracking-[0.25em] text-accent">
-                Turnkey · 3,200 sq.ft · Walnut & Cognac
+                Turnkey · 3,200 sq.ft · Boho-French Fusion
               </p>
             </div>
           </div>
@@ -346,28 +345,28 @@ function Marquee() {
 const PROJECTS = [
   {
     img: kitchenImg,
-    title: "Cream & Walnut Kitchen",
+    title: "French Country Kitchen",
     cat: "Modular",
     span: "lg:col-span-2 lg:row-span-1",
     h: "h-[300px] lg:h-[340px]",
   },
   {
     img: bedroomImg,
-    title: "The Cognac Suite",
+    title: "The Bohemian Suite",
     cat: "Residential",
     span: "lg:col-span-1 lg:row-span-2",
     h: "h-[300px] lg:h-[712px]",
   },
   {
     img: officeImg,
-    title: "Teal Boardroom Lounge",
+    title: "The Heritage Study",
     cat: "Commercial",
     span: "lg:col-span-1",
     h: "h-[300px] lg:h-[340px]",
   },
   {
     img: afterImg,
-    title: "Baner Sky Residence",
+    title: "Baner Courtyard Residence",
     cat: "Turnkey",
     span: "lg:col-span-1",
     h: "h-[300px] lg:h-[340px]",
@@ -380,7 +379,7 @@ function Gallery() {
       <SectionHead
         kicker="The Gallery"
         title="Finished concepts, unfinished obsession"
-        copy="Every surface specified, every joint detailed. A selection of realised spaces across Pune and PCMC."
+        copy="Light-filled rooms with French elegance, bohemian ease and the soul of Indian craft — layered in warm, earthy materials."
       />
       <div className="mt-14 grid gap-5 lg:grid-cols-3">
         {PROJECTS.map((p) => (
@@ -646,8 +645,8 @@ function Proof() {
 
 /* ------------------------------- lead engine ------------------------------ */
 
-const TYPOLOGY = ["2 BHK Residence", "3 / 4 BHK Residence", "Villa / Penthouse", "Commercial Space"];
-const LANGUAGE = ["Contemporary Luxe", "Warm Minimal", "Indian Classic", "Art Deco Revival"];
+const TYPOLOGY = ["2 BHK Residence", "3 / 4 BHK Residence", "Villa / Bungalow", "Commercial Space"];
+const LANGUAGE = ["Boho-French Fusion", "Earthy Contemporary", "Indian Ethnic", "Art Deco Revival"];
 const SCALE = ["Under 900 sq.ft", "900 – 1,600 sq.ft", "1,600 – 3,000 sq.ft", "3,000+ sq.ft"];
 const LOCATIONS = ["Pune", "PCMC", "Global / NRI"];
 
