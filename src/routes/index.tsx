@@ -86,7 +86,7 @@ function Wordmark({ compact = false }: { compact?: boolean }) {
             compact ? "text-base" : "text-lg sm:text-xl"
           }`}
         >
-          P VISIION
+          PV Interiors
         </span>
         <span className="block text-[10px] tracking-[0.45em] text-greige">INTERIORS</span>
       </span>
@@ -359,7 +359,7 @@ const PROJECTS = [
   },
   {
     img: officeImg,
-    title: "The Heritage Study",
+    title: "Work space / Home office",
     cat: "Commercial",
     span: "lg:col-span-1",
     h: "h-[300px] lg:h-[340px]",
@@ -379,7 +379,7 @@ function Gallery() {
       <SectionHead
         kicker="The Gallery"
         title="Finished concepts, unfinished obsession"
-        copy="Light-filled rooms with French elegance, bohemian ease and the soul of Indian craft — layered in warm, earthy materials."
+        copy="Light-filled rooms with French elegance and the soul of Indian craft — layered in warm, earthy materials."
       />
       <div className="mt-14 grid gap-5 lg:grid-cols-3">
         {PROJECTS.map((p) => (
@@ -489,17 +489,17 @@ function Philosophy() {
     {
       icon: Compass,
       t: "Customized Design & Build",
-      d: "Design consultancy, Vastu-aligned layouts and turnkey execution accomodating bespoke modular furniture for your comfort and need. ",
+      d: "Bespoke design consultancy, Vastu-aligned planning and turnkey execution—seamlessly integrating civil works, fine carpentry, custom modular furniture and curated furnishings",
     },
     {
       icon: Ruler,
-      t: "Renovation",
-      d: "Existing homes reimagined — civil work, carpentry, lighting and finishes upgraded without the chaos.",
+      t: "Renovation & Styling           ",
+      d: "Transforming existing homes with emotion—creating up to 25% more usable space through civil & carpentry enhancements, elevated with soft furnishings, wall art & statement pieces.",
     },
     {
       icon: ShieldCheck,
-      t: "construction project management",
-      d: " and turnkey execution under one accountable contract, with a 180-day warranty.",
+      t: "Construction Project Management",
+      d: "End-to-end coordination from planning to handover—managing agencies, timelines, costs, quality and client updates.",
     },
   ];
   return (
@@ -521,8 +521,7 @@ function Philosophy() {
         </div>
         <blockquote className="mt-16 border-l border-primary/60 pl-8">
           <p className="font-display text-2xl leading-snug text-cream lg:text-3xl">
-            “Our aim is to provide an appropriate, cost-effective design solution that reflects
-            quality, harmony and pride.”
+            “Our aim is to transform your vision into a timeless home—thoughtfully designed, beautifully crafted and built to last uniquely for you..”
           </p>
           <footer className="mt-5 text-[10px] uppercase tracking-[0.3em] text-accent">
             SENIOR DESIGNE EXPERTISE . HIGHLY PERSONALISED DESIGN . EXECUTION ACCOUNTABILITY 
@@ -692,11 +691,13 @@ function LeadEngine({
         <div className="text-center">
           <p className="text-[10px] uppercase tracking-[0.4em] text-accent">Interactive</p>
           <h2 className="mt-6 font-display text-4xl text-cream lg:text-5xl">
-            Bespoke Space Cost &amp; Vision Architect
+            Begin Your Journey with PV interiors
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-greige">
-            Four considered questions. Receive an indicative investment band, our private lookbook,
-            and a direct line to Sucheta.
+            Every home is different. We listen, understand your lifestyle and create spaces that are personal, functional and timeless—not simply copied from a catalogue.
+
+
+Four considered questions. Receive an indicative investment band, our private lookbook, and a direct line to Sucheta.
           </p>
         </div>
 
