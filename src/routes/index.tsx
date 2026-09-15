@@ -320,12 +320,12 @@ function Hero({ onUnlock }: { onUnlock: () => void }) {
 
 function Marquee() {
   const items = [
-    "Customized Design & Build",
+    "CUSTOMIZED DESIGN",
     "Renovation",
-    "Vastu",
-    "Design Consultancy",
+    "VASTU ALIGNED SPACES",
+    "\n",
     "Modular Furniture",
-    "Turnkey Projects",
+    "PROJECT MANAGEMENT",
   ];
   return (
     <div className="border-y border-border bg-card">
@@ -489,17 +489,17 @@ function Philosophy() {
     {
       icon: Compass,
       t: "Customized Design & Build",
-      d: "Design consultancy, space planning and bespoke modular furniture drawn from how you actually live.",
+      d: "Design consultancy, Vastu-aligned layouts and turnkey execution accomodating bespoke modular furniture for your comfort and need. ",
     },
     {
       icon: Ruler,
       t: "Renovation",
-      d: "Existing homes reimagined — civil work, joinery, lighting and finishes upgraded without the chaos.",
+      d: "Existing homes reimagined — civil work, carpentry, lighting and finishes upgraded without the chaos.",
     },
     {
       icon: ShieldCheck,
-      t: "Vastu",
-      d: "Vastu-aligned layouts and turnkey execution under one accountable contract, with a 180-day warranty.",
+      t: "construction project management",
+      d: " and turnkey execution under one accountable contract, with a 180-day warranty.",
     },
   ];
   return (
@@ -508,7 +508,7 @@ function Philosophy() {
         <SectionHead
           kicker="Design Philosophy"
           title="Why P Visiion Interiors"
-          copy="Practical approach, perfect planning and a personal touch — the identity of every project we sign."
+          copy={"Practical approach, perfect planning and a personal touch — the identity of every project we sign.\nSENIOR DESIGNE EXPERTISE . HIGHLY PERSONALISED DESIGN . EXECUTION ACCOUNTABILITY "}
         />
         <div className="mt-16 grid gap-px border border-border bg-border md:grid-cols-3">
           {pillars.map((p) => (
@@ -525,7 +525,7 @@ function Philosophy() {
             quality, harmony and pride.”
           </p>
           <footer className="mt-5 text-[10px] uppercase tracking-[0.3em] text-accent">
-            Sucheta Alve · Principal Designer
+            SENIOR DESIGNE EXPERTISE . HIGHLY PERSONALISED DESIGN . EXECUTION ACCOUNTABILITY 
           </footer>
         </blockquote>
       </div>
