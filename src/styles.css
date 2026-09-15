@@ -162,4 +162,9 @@
     background-color: var(--color-background);
     color: var(--color-foreground);
   }
+
+  /* Serif display face renders a touch heavier for luxury legibility */
+  .font-display {
+    font-weight: 600;
+  }
 }
