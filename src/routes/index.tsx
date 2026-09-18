@@ -512,7 +512,7 @@ function Philosophy() {
         <SectionHead
           kicker="Design Philosophy"
           title="Why P Visiion Interiors"
-          copy={"Practical approach, perfect planning and a personal touch — the identity of every project we sign. \nSENIOR DESIGNE EXPERTISE . HIGHLY PERSONALISED DESIGN . EXECUTION ACCOUNTABILITY "}
+          copy={"Practical approach, perfect planning and a personal touch — the identity of every project we sign. \n\n"}
         />
         <div className="mt-16 grid gap-px border border-border bg-border md:grid-cols-3">
           {pillars.map((p) => (
