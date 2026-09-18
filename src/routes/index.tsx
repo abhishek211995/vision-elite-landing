@@ -345,8 +345,8 @@ function Marquee() {
 const PROJECTS = [
   {
     img: kitchenImg,
-    title: "French Country Kitchen",
-    cat: "Modular",
+    title: "French Countryside Taste in Indian Kitchen",
+    cat: "MODULAR KITCHEN",
     span: "lg:col-span-2 lg:row-span-1",
     h: "h-[300px] lg:h-[340px]",
   },
@@ -400,7 +400,7 @@ function Gallery() {
               </span>
               <p className="mt-3 font-display text-2xl text-oncanvas">{p.title}</p>
               <p className="mt-1 max-h-0 overflow-hidden text-xs text-oncanvas/80 opacity-0 transition-all duration-500 group-hover:max-h-10 group-hover:opacity-100">
-                Design consultancy, bespoke fabrication and site execution in-house.
+                Premium Residential Interior Design Pune, provides design consultancy, bespoke fabrication and site execution in-house.
               </p>
             </figcaption>
           </figure>
