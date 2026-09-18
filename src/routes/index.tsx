@@ -88,7 +88,7 @@ function Wordmark({ compact = false }: { compact?: boolean }) {
         >
           PV Interiors
         </span>
-        <span className="block text-[10px] tracking-[0.45em] text-greige">INTERIORS</span>
+        <span className="block text-[10px] tracking-[0.45em] text-greige">INTERI</span>
       </span>
     </span>
   );
