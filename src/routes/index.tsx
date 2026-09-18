@@ -88,7 +88,7 @@ function Wordmark({ compact = false }: { compact?: boolean }) {
         >
           PV Interiors
         </span>
-        <span className="block text-[10px] tracking-[0.45em] text-greige">INTERI</span>
+        <span className="block text-[10px] tracking-[0.45em] text-greige">DISIGN · BUILD · BELONG</span>
       </span>
     </span>
   );
@@ -255,7 +255,7 @@ function Hero({ onUnlock }: { onUnlock: () => void }) {
       <div className="relative mx-auto grid max-w-7xl items-center gap-16 px-6 lg:grid-cols-[1.05fr_1fr] lg:px-10">
         <div>
           <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.4em] text-accent">
-            <span className="h-px w-10 bg-accent/60" /> DISIGN · BUILD · BELONG
+            <span className="h-px w-10 bg-accent/60" /> CUSTOMIZED DISIGN · RENOVATION . TURNKEY PROJECTS . MODULAR FURNITURE. PROJECT MGMT. 
           </p>
           <h1 className="mt-8 font-display text-[2.7rem] leading-[1.05] text-cream sm:text-6xl lg:text-[4.5rem]">
             A Design Studio, Crafting <em className="not-italic text-accent">Distingtive Homes</em>
