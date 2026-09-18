@@ -255,15 +255,13 @@ function Hero({ onUnlock }: { onUnlock: () => void }) {
       <div className="relative mx-auto grid max-w-7xl items-center gap-16 px-6 lg:grid-cols-[1.05fr_1fr] lg:px-10">
         <div>
           <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.4em] text-accent">
-            <span className="h-px w-10 bg-accent/60" /> Wakad · Pune · Since 2016
+            <span className="h-px w-10 bg-accent/60" /> DISIGN · BUILD · BELONG
           </p>
           <h1 className="mt-8 font-display text-[2.7rem] leading-[1.05] text-cream sm:text-6xl lg:text-[4.5rem]">
-            Engineering the Future of{" "}
-            <em className="not-italic text-accent">Ultra-Luxury Living</em>
+            A Design Studio, Crafting Personalized Luxury Homes.
           </h1>
           <p className="mt-8 max-w-xl text-base leading-relaxed text-greige">
-            Light-filled interiors where relaxed bohemian warmth meets French refinement and
-            Indian craft — layered in earthy tones, natural materials and a deeply personal touch.
+            Your home deserves more than a beautiful design—it deserves thoughtful expertise, uncompromising quality and seamless execution, guided by professionals who care about every detail.
           </p>
           <div className="mt-11 flex flex-col gap-4 sm:flex-row">
             <button
@@ -284,7 +282,7 @@ function Hero({ onUnlock }: { onUnlock: () => void }) {
             {[
               ["4.8/5", "Client rating"],
               ["120+", "Homes delivered"],
-              ["180 days", "Workmanship warranty"],
+              ["90 days", "PROJECT DELIVERY"],
             ].map(([v, l]) => (
               <div key={l}>
                 <dt className="font-display text-2xl text-cream">{v}</dt>
