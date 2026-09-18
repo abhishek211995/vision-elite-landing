@@ -347,13 +347,15 @@ const PROJECTS = [
     img: kitchenImg,
     title: "French Countryside Taste in Indian Kitchen",
     cat: "MODULAR KITCHEN",
+    description: "Premium Residential Interior Design & Luxury Modular Kitchens in Pune—bringing bespoke design, refined craftsmanship and seamless in-house execution together to create truly distinctive homes.Premium Residential Interior Design Pune, provides design consultancy, bespoke fabrication and site execution in-house.",
     span: "lg:col-span-2 lg:row-span-1",
     h: "h-[300px] lg:h-[340px]",
   },
   {
     img: bedroomImg,
-    title: "The Bohemian Suite",
+    title: "The Desi-Bohemian Suite",
     cat: "Residential",
+    description: "Luxury Interior Designer in Wakad - Bespoke Home Design, Luxury Modular Kitchens & Turnkey Interiors—crafted around your lifestyle.",
     span: "lg:col-span-1 lg:row-span-2",
     h: "h-[300px] lg:h-[712px]",
   },
@@ -361,13 +363,15 @@ const PROJECTS = [
     img: officeImg,
     title: "Work space / Home office",
     cat: "Commercial",
+    description: "Bespoke Home Office Interior Design in Baner - design Thoughtfully designed workspaces combining refined aesthetics, functionality and custom craftsmanship.\n",
     span: "lg:col-span-1",
     h: "h-[300px] lg:h-[340px]",
   },
   {
     img: afterImg,
-    title: "Baner Courtyard Residence",
+    title: "Earthy Modern Residence",
     cat: "Turnkey",
+    description: "Luxury Home Interiors Baner Pune - provides design consultancy, bespoke fabrication and site execution in-house.",
     span: "lg:col-span-1",
     h: "h-[300px] lg:h-[340px]",
   },
@@ -400,7 +404,7 @@ function Gallery() {
               </span>
               <p className="mt-3 font-display text-2xl text-oncanvas">{p.title}</p>
               <p className="mt-1 max-h-0 overflow-hidden text-xs text-oncanvas/80 opacity-0 transition-all duration-500 group-hover:max-h-10 group-hover:opacity-100">
-                Premium Residential Interior Design Pune, provides design consultancy, bespoke fabrication and site execution in-house.
+                {p.description}
               </p>
             </figcaption>
           </figure>
