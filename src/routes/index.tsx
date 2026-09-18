@@ -258,11 +258,12 @@ function Hero({ onUnlock }: { onUnlock: () => void }) {
             <span className="h-px w-10 bg-accent/60" /> DISIGN · BUILD · BELONG
           </p>
           <h1 className="mt-8 font-display text-[2.7rem] leading-[1.05] text-cream sm:text-6xl lg:text-[4.5rem]">
-            A Design Studio, Crafting Personalized{" "}
-            <em className="not-italic text-accent">Ultra-Luxury Homes</em>
+            A Design Studio, Crafting <em className="not-italic text-accent">Distingtive Homes</em>
           </h1>
           <p className="mt-8 max-w-xl text-base leading-relaxed text-greige">
             Your home deserves more than a beautiful design—it deserves thoughtful expertise, uncompromising quality and seamless execution, guided by professionals who care about every detail.
+            Your space looks 
+            <div>Personalised Luxury Home Interiors in Pune—where distinctive design, refined craftsmanship and your unique vision comes together.</div>
           </p>
           <div className="mt-11 flex flex-col gap-4 sm:flex-row">
             <button
