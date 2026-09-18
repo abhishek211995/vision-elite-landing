@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import {
   ArrowRight,
@@ -158,6 +158,12 @@ function Header({ onMenu, onReserve }: { onMenu: () => void; onReserve: () => vo
                 {n.label}
               </button>
             ))}
+            <Link
+              to="/journal"
+              className="text-xs uppercase tracking-[0.2em] text-greige transition-colors hover:text-primary"
+            >
+              Design Journal
+            </Link>
           </nav>
           <button
             onClick={onReserve}
@@ -222,6 +228,13 @@ function MobileDrawer({
               {n.label}
             </button>
           ))}
+          <Link
+            to="/journal"
+            onClick={onClose}
+            className="text-left font-display text-2xl text-obsidian"
+          >
+            Design Journal
+          </Link>
         </nav>
         <button
           onClick={() => {
@@ -923,14 +936,22 @@ function Footer() {
             Customized design &amp; build, renovation and Vastu — a cost-effective design solution
             that reflects quality, harmony and pride.
           </p>
-          <a
-            href={INSTAGRAM}
-            target="_blank"
-            rel="noreferrer"
-            className="mt-8 inline-flex items-center gap-3 border border-border bg-background px-5 py-3 text-[10px] uppercase tracking-[0.22em] text-cream transition-colors hover:border-primary/60 hover:text-primary"
-          >
-            <Instagram className="h-4 w-4" /> @pvisiioninteriors
-          </a>
+          <div className="mt-8 flex flex-wrap items-center gap-3">
+            <a
+              href={INSTAGRAM}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-3 border border-border bg-background px-5 py-3 text-[10px] uppercase tracking-[0.22em] text-cream transition-colors hover:border-primary/60 hover:text-primary"
+            >
+              <Instagram className="h-4 w-4" /> @pvisiioninteriors
+            </a>
+            <Link
+              to="/journal"
+              className="inline-flex items-center gap-2 border border-border bg-background px-5 py-3 text-[10px] uppercase tracking-[0.22em] text-primary transition-colors hover:border-primary/60"
+            >
+              Design Journal <ArrowRight className="h-3.5 w-3.5" />
+            </Link>
+          </div>
         </div>
 
         <div className="border border-border bg-background p-7">
