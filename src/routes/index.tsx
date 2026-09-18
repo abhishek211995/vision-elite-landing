@@ -306,7 +306,7 @@ function Hero({ onUnlock }: { onUnlock: () => void }) {
             <div className="absolute inset-x-6 bottom-6 border border-border bg-background/90 p-5 backdrop-blur-2xl">
               <p className="font-display text-lg text-cream">The Wakad Bungalow</p>
               <p className="mt-1 text-[10px] uppercase tracking-[0.25em] text-accent">
-                Turnkey · 3,200 sq.ft · Boho-French Fusion
+                TURNKEY · 3,200 SQ.FT · DESI- BOHO FUSION
               </p>
             </div>
           </div>
@@ -418,8 +418,8 @@ function Gallery() {
             Drag to witness the transformation
           </h3>
           <p className="mt-5 text-sm leading-relaxed text-greige">
-            We take handover-condition apartments and deliver fully finished, Vastu-aligned homes —
-            civil, false ceiling, joinery, lighting and styling under one accountable contract.
+            We take basic built bungalows structures, handover-condition apartments and deliver fully finished, Vastu-aligned homes —
+            civil, false ceiling, carpentry, lighting, styling & garden designing under one accountable contract.
           </p>
         </div>
         <Compare />
@@ -512,7 +512,7 @@ function Philosophy() {
         <SectionHead
           kicker="Design Philosophy"
           title="Why P Visiion Interiors"
-          copy={"Practical approach, perfect planning and a personal touch — the identity of every project we sign.\nSENIOR DESIGNE EXPERTISE . HIGHLY PERSONALISED DESIGN . EXECUTION ACCOUNTABILITY "}
+          copy={"Practical approach, perfect planning and a personal touch — the identity of every project we sign. \n\n"}
         />
         <div className="mt-16 grid gap-px border border-border bg-border md:grid-cols-3">
           {pillars.map((p) => (
@@ -543,20 +543,20 @@ function Blueprint() {
     {
       n: "01",
       t: "The Vision & Digital Twin",
-      d: "We interpret your brief into layouts and photoreal 3D walkthroughs, so the home is signed off before a single panel is cut.",
+      d: "We interpret your brief into layouts and photoreal 3D renders, so the home is signed off before a single panel is cut.",
       tag: "Vastu reviewed",
     },
     {
       n: "02",
-      t: "Bespoke Material Curation",
-      d: "Curated veneers, stones, fabrics and hardware presented as physical samples with a transparent, line-item estimate.",
-      tag: "Structural transparency",
+      t: " Material Selection & Estimation",
+      d: "Physical samples of tiles, stones, laminates, fabrics and hardware, presented with a clear, transparent line-item estimate.",
+      tag: "PROJECT VALUE TRANSPARENCY",
     },
     {
       n: "03",
       t: "Rigorous Turnkey Execution",
-      d: "Supervised site execution with weekly progress updates and a 180-day warranty covering defects in workmanship.",
-      tag: "180-day warranty",
+      d: "Supervised site execution with weekly progress updates to the client -  handover in 90 days.",
+      tag: "DELIVERY- 60 -90 DAYS",
     },
   ];
   return (
