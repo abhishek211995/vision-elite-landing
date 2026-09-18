@@ -258,7 +258,8 @@ function Hero({ onUnlock }: { onUnlock: () => void }) {
             <span className="h-px w-10 bg-accent/60" /> DISIGN · BUILD · BELONG
           </p>
           <h1 className="mt-8 font-display text-[2.7rem] leading-[1.05] text-cream sm:text-6xl lg:text-[4.5rem]">
-            A Design Studio, Crafting Personalized Luxury Homes.
+            A Design Studio, Crafting Personalized{" "}
+            <em className="not-italic text-accent">Ultra-Luxury Homes</em>
           </h1>
           <p className="mt-8 max-w-xl text-base leading-relaxed text-greige">
             Your home deserves more than a beautiful design—it deserves thoughtful expertise, uncompromising quality and seamless execution, guided by professionals who care about every detail.
