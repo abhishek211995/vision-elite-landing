@@ -607,7 +607,7 @@ function Proof() {
     {
       q: "They delivered our Wakad 3BHK to the drawing — the overall joinery from design to execution to handover was flawless and within estimated time & budget .",
       n: "Major Snigdha Nehru",
-      p: "Wakad, Pune",
+      p: "Pashan-Sus Rd., Pune",
     },
     {
       q: "Sucheta understood our Vastu requirements, her ability to balance aesthetics with functionality is impressive & her recommendations are always spot-on.",
