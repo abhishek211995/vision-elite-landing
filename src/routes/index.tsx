@@ -360,7 +360,7 @@ const PROJECTS = [
     img: kitchenImg,
     title: "French Countryside Taste in Indian Kitchen",
     cat: "MODULAR KITCHEN",
-    description: "Premium Residential Interior Design & Luxury Modular Kitchens in Pune—bringing bespoke design, refined craftsmanship and seamless in-house execution together to create truly distinctive homes.Premium Residential Interior Design Pune, provides design consultancy, bespoke fabrication and site execution in-house.",
+    description: "Premium Residential Interior Design & Luxury Modular Kitchens in Pune—bringing bespoke design, refined craftsmanship and seamless in-house execution together to create truly distinctive homes.",
     span: "lg:col-span-2 lg:row-span-1",
     h: "h-[300px] lg:h-[340px]",
   },
@@ -605,19 +605,19 @@ function Blueprint() {
 function Proof() {
   const reviews = [
     {
-      q: "They delivered our Wakad 3BHK to the drawing — the walnut joinery is flawless and the site was spotless every week.",
-      n: "Rohit & Anuja Deshpande",
-      p: "Wakad, Pune",
+      q: "They delivered our Wakad 3BHK to the drawing — the overall joinery from design to execution to handover was flawless and within estimated time & budget .",
+      n: "Major Snigdha Nehru",
+      p: "Pashan-Sus Rd., Pune",
     },
     {
-      q: "Sucheta understood our Vastu requirements without compromising the aesthetic. Estimate never moved.",
-      n: "Dr. Meenal Kulkarni",
+      q: "Sucheta understood our Vastu requirements, her ability to balance aesthetics with functionality is impressive & her recommendations are always spot-on.",
+      n: "Mrs. Sweta Shukla Sharma",
       p: "Baner, Pune",
     },
     {
       q: "We manage our office remotely; the weekly updates and photo reports made handover completely stress-free.",
-      n: "Aniket Shah",
-      p: "Hinjawadi, PCMC",
+      n: "Ganesh Nikam",
+      p: "Wakad, PCMC",
     },
   ];
   return (
@@ -626,8 +626,8 @@ function Proof() {
         <div className="grid gap-px border border-border bg-border sm:grid-cols-2 lg:grid-cols-4">
           {[
             ["4.8/5", "Average client rating"],
-            ["38", "Active projects · Pune"],
-            ["21", "Active projects · PCMC"],
+            ["18+Yrs.", "SENIOR DESIGN EXPERIENCE"],
+            ["180 Days", "POST HANDOVER ASSISTANCE"],
             ["100%", "Line-item transparency"],
           ].map(([v, l]) => (
             <div key={l} className="bg-background p-8 text-center">
