@@ -956,7 +956,7 @@ function Footer() {
 
         <div className="border border-border bg-background p-7">
           <MapPin className="h-5 w-5 text-primary" />
-          <p className="mt-5 font-display text-xl text-cream">Studio · Wakad, Pune</p>
+          <p className="mt-5 font-display text-xl text-cream">PV Interiors · Wakad, Pune</p>
           <p className="mt-3 text-sm leading-relaxed text-greige">
             310, Khinvasara Trade Center,
             <br />
