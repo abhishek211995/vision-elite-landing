@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import {
   ArrowRight,
@@ -98,13 +98,11 @@ function Wordmark({ compact = false }: { compact?: boolean }) {
 /* ---------------------------------- shell --------------------------------- */
 
 function Landing() {
+  const navigate = useNavigate();
   const [drawer, setDrawer] = useState(false);
   const [leadOpen, setLeadOpen] = useState(false);
 
-  const openLead = () => {
-    setLeadOpen(true);
-    scrollTo("architect");
-  };
+  const openLead = () => navigate({ to: "/inquiry" });
 
   return (
     <div className="min-h-screen bg-background font-sans text-foreground antialiased">
