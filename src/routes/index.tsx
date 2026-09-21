@@ -117,7 +117,8 @@ function Landing() {
         <Philosophy />
         <Blueprint />
         <Proof />
-        <LeadEngine open={leadOpen} onOpenChange={setLeadOpen} />
+        {/* Hidden on request — set `true` to restore the "Begin Your Journey" estimator */}
+        {false && <LeadEngine open={leadOpen} onOpenChange={setLeadOpen} />}
       </main>
       <Footer />
     </div>
