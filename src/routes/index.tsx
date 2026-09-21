@@ -98,6 +98,7 @@ function Wordmark({ compact = false }: { compact?: boolean }) {
 /* ---------------------------------- shell --------------------------------- */
 
 function Landing() {
+  const navigate = useNavigate();
   const [drawer, setDrawer] = useState(false);
   const [leadOpen, setLeadOpen] = useState(false);
 
