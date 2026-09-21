@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import {
   ArrowRight,
@@ -102,8 +102,8 @@ function Landing() {
   const [leadOpen, setLeadOpen] = useState(false);
 
   const openLead = () => {
-    setLeadOpen(true);
-    scrollTo("architect");
+    setLeadOpen(false);
+    navigate({ to: "/inquiry" });
   };
 
   return (
