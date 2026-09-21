@@ -102,10 +102,7 @@ function Landing() {
   const [drawer, setDrawer] = useState(false);
   const [leadOpen, setLeadOpen] = useState(false);
 
-  const openLead = () => {
-    setLeadOpen(false);
-    navigate({ to: "/inquiry" });
-  };
+  const openLead = () => navigate({ to: "/inquiry" });
 
   return (
     <div className="min-h-screen bg-background font-sans text-foreground antialiased">
