@@ -279,6 +279,7 @@ function Hero({ onUnlock }: { onUnlock: () => void }) {
             Your space looks 
             <div>Personalised Luxury Home Interiors in Pune—where distinctive design, refined craftsmanship and your unique vision comes together.</div>
           </p>
+          {/* Hero buttons hidden — restore this block to bring back "Unlock Private Portfolio" and "Explore Aesthetics"
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <button
               onClick={onUnlock}
@@ -293,6 +294,7 @@ function Hero({ onUnlock }: { onUnlock: () => void }) {
               Explore Aesthetics
             </a>
           </div>
+          */}
           <dl className="mt-14 grid max-w-lg grid-cols-3 gap-6 border-t border-border pt-8">
             {[
               ["4.8/5", "Client rating"],
