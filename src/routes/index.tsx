@@ -280,13 +280,6 @@ function Hero({ onUnlock }: { onUnlock: () => void }) {
           </p>
           <div className="mt-11 flex flex-col gap-4 sm:flex-row">
             <button
-              onClick={onUnlock}
-              className="group flex items-center justify-center gap-3 bg-primary px-8 py-4 text-[11px] uppercase tracking-[0.25em] text-accent-foreground transition-transform hover:-translate-y-0.5"
-            >
-              Unlock Private Portfolio
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </button>
-            <button
               onClick={() => scrollTo("gallery")}
               className="border border-border px-8 py-4 text-[11px] uppercase tracking-[0.25em] text-cream transition-colors hover:border-primary/70 hover:text-primary"
             >
