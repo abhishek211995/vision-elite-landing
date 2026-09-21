@@ -278,14 +278,6 @@ function Hero({ onUnlock }: { onUnlock: () => void }) {
             Your space looks 
             <div>Personalised Luxury Home Interiors in Pune—where distinctive design, refined craftsmanship and your unique vision comes together.</div>
           </p>
-          <div className="mt-11 flex flex-col gap-4 sm:flex-row">
-            <button
-              onClick={() => scrollTo("gallery")}
-              className="border border-border px-8 py-4 text-[11px] uppercase tracking-[0.25em] text-cream transition-colors hover:border-primary/70 hover:text-primary"
-            >
-              Explore Aesthetics
-            </button>
-          </div>
           <dl className="mt-14 grid max-w-lg grid-cols-3 gap-6 border-t border-border pt-8">
             {[
               ["4.8/5", "Client rating"],
