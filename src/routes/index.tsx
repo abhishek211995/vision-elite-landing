@@ -88,7 +88,7 @@ function Wordmark({ compact = false }: { compact?: boolean }) {
         >
           PV Interiors
         </span>
-        <span className="block text-[10px] tracking-[0.45em] text-greige">DISIGN · BUILD · BELONG</span>
+        <span className="block text-[10px] tracking-[0.45em] text-greige">DESIGN · BUILD · BELONG</span>
       </span>
     </span>
   );
@@ -317,9 +317,9 @@ function Hero({ onUnlock }: { onUnlock: () => void }) {
               className="h-[380px] w-full object-cover sm:h-[520px]"
             />
             <div className="absolute inset-x-6 bottom-6 border border-border bg-background/90 p-5 backdrop-blur-2xl">
-              <p className="font-display text-lg text-cream">The Wakad Bungalow</p>
+              <p className="font-display text-lg text-cream">Desi- Boho fusion interior</p>
               <p className="mt-1 text-[10px] uppercase tracking-[0.25em] text-accent">
-                TURNKEY · 3,200 SQ.FT · DESI- BOHO FUSION
+                TURNKEY INTERIOR DESIGN / PROJECT MANAGEMENT / HOME STYLING
               </p>
             </div>
           </div>
