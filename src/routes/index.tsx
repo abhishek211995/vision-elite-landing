@@ -943,7 +943,7 @@ function Footer() {
               rel="noreferrer"
               className="inline-flex items-center gap-3 border border-border bg-background px-5 py-3 text-[10px] uppercase tracking-[0.22em] text-cream transition-colors hover:border-primary/60 hover:text-primary"
             >
-              <Instagram className="h-4 w-4" /> @pvisiioninteriors
+              <Instagram className="h-4 w-4" /> @PVINTERIORS.IN
             </a>
             <Link
               to="/journal"
