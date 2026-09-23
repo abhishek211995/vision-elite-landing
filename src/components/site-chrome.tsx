@@ -251,7 +251,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-border">
         <div className="mx-auto flex max-w-7xl flex-col gap-3 px-6 py-7 text-[10px] uppercase tracking-[0.22em] text-greige/50 sm:flex-row sm:items-center sm:justify-between lg:px-10">
-          <span>© {new Date().getFullYear()} P Visiion Interiors, Pune</span>
+          <span>© {new Date().getFullYear()} PV INTERIORS, PUNE</span>
           <span>Design Consultancy · Modular Furniture · Turnkey Projects</span>
         </div>
       </div>
