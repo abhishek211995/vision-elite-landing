@@ -121,12 +121,12 @@ function InquiryPage() {
               >
                 <MessageCircle className="h-4 w-4" /> Open WhatsApp
               </a>
-              <a
-                href={`tel:${PHONE}`}
-                className="inline-flex items-center gap-3 border border-primary/60 bg-primary/10 px-6 py-3.5 text-[11px] uppercase tracking-[0.22em] text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
-              >
-                <Phone className="h-4 w-4" /> +91 8805 028 765
-              </a>
+                <a
+                  href={`tel:${PHONE}`}
+                  className="inline-flex items-center gap-3 border border-primary/60 bg-primary/10 px-6 py-3.5 text-[11px] uppercase tracking-[0.22em] text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+                >
+                  <Phone className="h-4 w-4" /> +91 9185063003
+                </a>
             </div>
           </div>
         ) : (
@@ -209,7 +209,7 @@ function InquiryPage() {
               Submitting opens WhatsApp with your details pre-filled, straight to Sucheta. Prefer to
               talk first? Call{" "}
               <a href={`tel:${PHONE}`} className="text-primary hover:underline">
-                +91 8805 028 765
+                +91 9185063003
               </a>
               .
             </p>
