@@ -95,7 +95,7 @@ export function JournalHeader() {
               rel="noreferrer"
               className="hidden shrink-0 border border-primary/60 bg-primary/10 px-5 py-2.5 text-[11px] uppercase tracking-[0.2em] text-primary transition-all hover:bg-primary hover:text-primary-foreground sm:block"
             >
-              Reserve a Consultation
+              BOOK A CONSULTATION
             </a>
             <button
               onClick={() => setDrawer(true)}
@@ -158,7 +158,7 @@ export function JournalHeader() {
             rel="noreferrer"
             className="mt-12 block w-full bg-primary py-4 text-center text-[11px] uppercase tracking-[0.25em] text-accent-foreground"
           >
-            Reserve a Consultation
+            BOOK A CONSULTATION
           </a>
           <div className="mt-8 space-y-3 text-sm text-greige">
             <a href={`tel:${PHONE}`} className="flex items-center gap-3">
@@ -286,7 +286,7 @@ export function ConsultCta({
           href={`tel:${PHONE}`}
           className="inline-flex items-center gap-3 border border-primary/60 bg-primary/10 px-6 py-3.5 text-[11px] uppercase tracking-[0.22em] text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
         >
-          <Phone className="h-4 w-4" /> Reserve a Consultation
+          <Phone className="h-4 w-4" /> BOOK A CONSULTATION
         </a>
       </div>
     </section>
