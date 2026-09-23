@@ -4,8 +4,8 @@ import { ArrowRight, Instagram, Mail, MapPin, Menu, MessageCircle, Phone, X } fr
 
 import logoAsset from "@/assets/p-visiion-logo.png.asset.json";
 
-export const PHONE = "+918805028765";
-export const WHATSAPP = "https://wa.me/918805028765";
+export const PHONE = "+919185063003";
+export const WHATSAPP = "https://wa.me/919185063003";
 export const INSTAGRAM = "https://www.instagram.com/pvisiioninteriors";
 
 export function LogoMark({ className = "h-10 w-10" }: { className?: string }) {
@@ -162,10 +162,10 @@ export function JournalHeader() {
           </a>
           <div className="mt-8 space-y-3 text-sm text-greige">
             <a href={`tel:${PHONE}`} className="flex items-center gap-3">
-              <Phone className="h-4 w-4 text-primary" /> +91 8805 028 765
+              <Phone className="h-4 w-4 text-primary" /> +91 9185063003
             </a>
-            <a href="mailto:pvisiion@gmail.com" className="flex items-center gap-3">
-              <Mail className="h-4 w-4 text-primary" /> pvisiion@gmail.com
+            <a href="mailto:sucheta.pmpprojects@gmail.com" className="flex items-center gap-3">
+              <Mail className="h-4 w-4 text-primary" /> sucheta.pmpprojects@gmail.com
             </a>
           </div>
         </div>
@@ -230,13 +230,13 @@ export function SiteFooter() {
               href={`tel:${PHONE}`}
               className="flex items-center gap-3 text-greige transition-colors hover:text-primary"
             >
-              <Phone className="h-4 w-4 text-primary" /> +91 8805 028 765
+              <Phone className="h-4 w-4 text-primary" /> +91 9185063003
             </a>
             <a
-              href="mailto:pvisiion@gmail.com"
+              href="mailto:sucheta.pmpprojects@gmail.com"
               className="flex items-center gap-3 text-greige transition-colors hover:text-primary"
             >
-              <Mail className="h-4 w-4 text-primary" /> pvisiion@gmail.com
+              <Mail className="h-4 w-4 text-primary" /> sucheta.pmpprojects@gmail.com
             </a>
             <a
               href={WHATSAPP}

@@ -48,8 +48,8 @@ export const Route = createFileRoute("/")({
   component: Landing,
 });
 
-const PHONE = "+918805028765";
-const WHATSAPP = "https://wa.me/918805028765";
+const PHONE = "+919185063003";
+const WHATSAPP = "https://wa.me/919185063003";
 const INSTAGRAM = "https://www.instagram.com/pvisiioninteriors";
 
 const NAV = [
@@ -245,12 +245,12 @@ function MobileDrawer({
           Reserve a Consultation
         </button>
         <div className="mt-8 space-y-3 text-sm text-greige">
-          <a href={`tel:${PHONE}`} className="flex items-center gap-3">
-            <Phone className="h-4 w-4 text-primary" /> +91 8805 028 765
-          </a>
-          <a href="mailto:pvisiion@gmail.com" className="flex items-center gap-3">
-            <Mail className="h-4 w-4 text-primary" /> pvisiion@gmail.com
-          </a>
+            <a href={`tel:${PHONE}`} className="flex items-center gap-3">
+              <Phone className="h-4 w-4 text-primary" /> +91 9185063003
+            </a>
+            <a href="mailto:sucheta.pmpprojects@gmail.com" className="flex items-center gap-3">
+              <Mail className="h-4 w-4 text-primary" /> sucheta.pmpprojects@gmail.com
+            </a>
         </div>
       </div>
     </div>
@@ -982,13 +982,13 @@ function Footer() {
               href={`tel:${PHONE}`}
               className="flex items-center gap-3 text-greige transition-colors hover:text-primary"
             >
-              <Phone className="h-4 w-4 text-primary" /> +91 8805 028 765
+              <Phone className="h-4 w-4 text-primary" /> +91 9185063003
             </a>
             <a
-              href="mailto:pvisiion@gmail.com"
+              href="mailto:sucheta.pmpprojects@gmail.com"
               className="flex items-center gap-3 text-greige transition-colors hover:text-primary"
             >
-              <Mail className="h-4 w-4 text-primary" /> pvisiion@gmail.com
+              <Mail className="h-4 w-4 text-primary" /> sucheta.pmpprojects@gmail.com
             </a>
             <a
               href={WHATSAPP}
