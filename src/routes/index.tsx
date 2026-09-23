@@ -317,7 +317,7 @@ function Hero({ onUnlock }: { onUnlock: () => void }) {
               className="h-[380px] w-full object-cover sm:h-[520px]"
             />
             <div className="absolute inset-x-6 bottom-6 border border-border bg-background/90 p-5 backdrop-blur-2xl">
-              <p className="font-display text-lg text-cream">Desi- Boho fusion interior</p>
+              <p className="font-display text-lg text-cream">Indo-Western Design fusion</p>
               <p className="mt-1 text-[10px] uppercase tracking-[0.25em] text-accent">
                 TURNKEY INTERIOR DESIGN / PROJECT MANAGEMENT / HOME STYLING
               </p>
