@@ -168,7 +168,7 @@ function Header({ onMenu, onReserve }: { onMenu: () => void; onReserve: () => vo
             onClick={onReserve}
             className="hidden shrink-0 border border-primary/60 bg-primary/10 px-5 py-2.5 text-[11px] uppercase tracking-[0.2em] text-primary transition-all hover:bg-primary hover:text-primary-foreground sm:block"
           >
-            Reserve a Consultation
+            BOOK A CONSULTATION
           </button>
           <button
             onClick={onMenu}
@@ -242,7 +242,7 @@ function MobileDrawer({
           }}
           className="mt-12 w-full bg-primary py-4 text-[11px] uppercase tracking-[0.25em] text-accent-foreground"
         >
-          Reserve a Consultation
+          BOOK A CONSULTATION
         </button>
         <div className="mt-8 space-y-3 text-sm text-greige">
             <a href={`tel:${PHONE}`} className="flex items-center gap-3">
